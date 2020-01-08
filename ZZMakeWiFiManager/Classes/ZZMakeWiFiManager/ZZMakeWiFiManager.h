@@ -6,14 +6,15 @@
 //
 
 /**
+ 注意：
+ pod 'CocoaAsyncSocket'
+ GCDAsyncSocket和pod添加的冲突
+ 
   在此代理方法中，修改下载的文件地址:
  -(void)processStartOfPartWithHeader:(MultipartMessageHeader*)header;
  在此代理方法中，获取下载的文件名称:
  -(void)processEndOfPartWithHeader:(MultipartMessageHeader*)header;
- 
- 注意：
- GCDAsyncSocket.h 和pod添加的冲突
- 
+
  ZZMakeWiFiManager *vc = [[ZZMakeWiFiManager alloc] init];
  [self.navigationController pushViewController:vc animated:YES];
  
