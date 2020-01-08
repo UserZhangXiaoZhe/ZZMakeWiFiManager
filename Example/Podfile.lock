@@ -1,0 +1,23 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - ZZMakeWiFiManager (1.0.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - ZZMakeWiFiManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  ZZMakeWiFiManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  ZZMakeWiFiManager: c867b9f396a2eb5c7f37f4ac310eb416a74bf905
+
+PODFILE CHECKSUM: 7e6b667acbc9278e33440a4965fb03447799b8c0
+
+COCOAPODS: 1.8.4

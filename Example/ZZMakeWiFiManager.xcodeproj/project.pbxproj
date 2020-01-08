@@ -60,13 +60,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AD4471EBE604184F21BE976 /* Pods-ZZMakeWiFiManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMakeWiFiManager_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88855483C55882753C6EF143 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		88855483C55882753C6EF143 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		88D0384EE195CABFD389711C /* Pods_ZZMakeWiFiManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZMakeWiFiManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA355E7B0F5FBD58AFA8842 /* Pods_ZZMakeWiFiManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZMakeWiFiManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F4DC5F462D3329F67139B2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F4DC5F462D3329F67139B2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B17F5C2F91ACC32F0DB56DC7 /* Pods-ZZMakeWiFiManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMakeWiFiManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD8B8B5395FAAE6C8B09AA37 /* Pods-ZZMakeWiFiManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZMakeWiFiManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E78A0C119031249DFD23D679 /* ZZMakeWiFiManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZMakeWiFiManager.podspec; path = ../ZZMakeWiFiManager.podspec; sourceTree = "<group>"; };
+		E78A0C119031249DFD23D679 /* ZZMakeWiFiManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZMakeWiFiManager.podspec; path = ../ZZMakeWiFiManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				B17F5C2F91ACC32F0DB56DC7 /* Pods-ZZMakeWiFiManager_Tests.debug.xcconfig */,
 				CD8B8B5395FAAE6C8B09AA37 /* Pods-ZZMakeWiFiManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/ZZMakeWiFiManager/ZZMakeWiFiManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZZMakeWiFiManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,10 +499,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZMakeWiFiManager/ZZMakeWiFiManager-Prefix.pch";
 				INFOPLIST_FILE = "ZZMakeWiFiManager/ZZMakeWiFiManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,10 +517,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZMakeWiFiManager/ZZMakeWiFiManager-Prefix.pch";
 				INFOPLIST_FILE = "ZZMakeWiFiManager/ZZMakeWiFiManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

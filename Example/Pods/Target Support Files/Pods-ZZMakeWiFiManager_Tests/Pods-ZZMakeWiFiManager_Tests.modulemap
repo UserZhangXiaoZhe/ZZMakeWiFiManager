@@ -1,0 +1,6 @@
+framework module Pods_ZZMakeWiFiManager_Tests {
+  umbrella header "Pods-ZZMakeWiFiManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

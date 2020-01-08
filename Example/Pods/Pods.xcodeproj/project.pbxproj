@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BF6EAABDC267C3EAB6F89D27911652 /* ZZMakeWiFiManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6381378DBFEF4084F89C529D7BD8F90 /* ZZMakeWiFiManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F6B6211AD1BF4C8355D6EA12C45A5E /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9D314E1DFEFA5EBC86E564F10C685A /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6AB6F5E01E65B31FA83A5E20DA05BB /* DHIPAdress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB91CE1FCC3C167C519510CD604B298 /* DHIPAdress.m */; };
+		0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */; };
+		10FF791F39D8A8D23FE4C0D81312D94A /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BCCAF535CB9F0972EB2AC102F946AE /* HTTPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142CBDD94CC924C3A51C0C0EADA140DE /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF16A7506BA6572862C3BE4D04A0767 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		18E6C37C0BD6CF63E801BCB706536905 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C143289ECB1B18E9F0E303C668705A1D /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE256D37A315EEF5E157267ACA95DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */; };
+		2211A62039B06112F3A38F6B254F5A8F /* Pods-ZZMakeWiFiManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B8C64833DE14035B56B0F0837259DA /* Pods-ZZMakeWiFiManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2430DB776FB04F6C44DF529EEB6CD87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		25F25DFEA4A5E8A70489A4023A40F5B9 /* UIView+ZZWiFiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B932437143EB9E6FDCDC782E0523F /* UIView+ZZWiFiView.m */; };
+		267738383AD105DB2C90B65C3EEFCE9A /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4233FDA2D38AFCF0523F56E93D3124C2 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27346529B0E395824B8683EFAA3A0ADC /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FD24057E1770381E08E1307060221 /* HTTPServer.m */; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3481C0B826985EE43CCCE061B3E93B /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B46A9DBAA49C9205C8F90CE3BFBB708 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0B95AEC58577C03691B8D63786932B /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 684199E237AEF382ADB748319042E51C /* HTTPConnection.m */; };
+		2D41DB01C4AA74B08900C6C2C0B40653 /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CFE2EE2A7A54EE926153548A32F106 /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3203600D6021AFFB855DA4DDDE6A2D5A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */; };
+		32C4947375F6CA00DF542EBD0792CDA2 /* index.html in Sources */ = {isa = PBXBuildFile; fileRef = A91A8FD4776F9CA12907A83B4D174C4D /* index.html */; };
+		36D3041FE8369DABDFB995CDF9B37A6C /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D964276B58058A75E17B0B849023B39 /* MultipartMessageHeaderField.m */; };
+		38C2FEA9E37A9DBEC88F8240025B2183 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8CD46F7AFD09FBC55712B533D60690 /* HTTPAsyncFileResponse.m */; };
+		3C697BCC0F5AE17EBA639DD7D2183934 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = E916E22ED0988917AE64FC3FD02D0786 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1DE7CF839E46E849FED929E4F0BA1D /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 560B5BB45BAC1CDFF6A162DA01AFCEC7 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D313ED4285E800B19A967F82D845BA8 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 39138A21456C1BA7479352444103ACF6 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F14F33407A67ADC527C4AF2A21D6A75 /* Pods-ZZMakeWiFiManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B5B53695A825C2B8B627317C9DB8DC /* Pods-ZZMakeWiFiManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB9B5D5FEB50EBEAE9F97CBED3F457B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 521959157E09A4E5FB2595E260801789 /* DDTTYLogger.m */; };
+		405DF4129B5E3C45FD8496916E0AB031 /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E623D7AFB954AF46062DDAD75CDBCE /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B8F0C2BAD2EF77C66DD262E17CFFBE /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 57633C9924907B1FAAFA96F120F1C707 /* DDASLLogCapture.m */; };
+		430E6CC23F4BD1CA3A692E6B14BEC62A /* Pods-ZZMakeWiFiManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A9BB540B2A583A69CB542C316F44E /* Pods-ZZMakeWiFiManager_Tests-dummy.m */; };
+		4731CCAB4E87F5B6CF9C79F59269C034 /* DHIPAdress.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA72647C8338152A7113D74DE8A93A /* DHIPAdress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDBB9FB0396726D02A9AFF178DE975E /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A069ECF6DCFB25432F3752A894F584B /* DDAbstractDatabaseLogger.m */; };
+		4C03506A9C94B4A34C5E9C57BA217313 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DB348137E1C49BD4453F6F6E037176A3 /* WebSocket.m */; };
+		4DF11DD4F6A166172D91BA4B273750E9 /* upload.html in Sources */ = {isa = PBXBuildFile; fileRef = 2DA79AEBFCAD3F005DE777F447E53AD8 /* upload.html */; };
+		52800EAE53044C1EDE33CD565858860A /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBF4ED2E69555994DCFBBC1B6D7902 /* HTTPDynamicFileResponse.m */; };
+		56E356D9E1492876B8623750A54AEFE3 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF2A55A581DB9119CBBD1729961B989 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A694FD9D4A362D41256BD8D44EE74D /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 509CBC2C68AA52FD06D919750A7CC8BC /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A829E84572C86E3E109552056B0F3CE /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2EC5FF4CC54F62D9E9E3D119EB9C47 /* HTTPFileResponse.m */; };
+		5A92A19F589E587EDD30EF16AA4C1EB0 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ABBC810C7544F5CA08382FE523C140 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0BC5912A629C73C0E0FBAF25AB29D3 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0CE9C8C7852FC1C78FA2DB6601B398 /* DDMultiFormatter.m */; };
+		5E09B2533A5CB36124DBFEAA6E8BCE60 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5331033638262EB98E7347B4130C4710 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CC164FF33B9AB19DBE75CD179BB6F7 /* ZZMakeWiFiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C9A1BEBB98022DE200618923A2F70E /* ZZMakeWiFiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B8208476AC4454AA6D3DE6DD75843A /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 273FFA32F7967C85E3E629CE87FB143D /* HTTPDataResponse.m */; };
+		69DE47EE88436AD4C157527CEB68AB6D /* ZZMakeWiFiMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 734FD6762DAFE95851EB72DF0F65C894 /* ZZMakeWiFiMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */; };
+		7C662C69E139A1DD34046510B6159F53 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 7344A83548F04E8B331D922A8F871794 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824D8D615997CABBB9B7748D789126B9 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E9E11F554AF28ED6105728817A3C6 /* DDData.m */; };
+		848CD1944CBE4D0FF445E8C08EC7C1CE /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AECCE7B08E726A6C340809DE20A0D332 /* HTTPRedirectResponse.m */; };
+		8671262578D9552152283D894A2B34C9 /* MyHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E045EE56FE47FDCF6FC38867FA1AFC /* MyHTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8711E8E2BE460C32231F2199EF55FBD7 /* HTTPErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E69C460810D6AA2D69A18F7EF80DC06 /* HTTPErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88521238558B53A7CF55BBADCE1BE95C /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B493FB589283D1BC05DBF32076DB75D6 /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BBD9A6C7ADCBFAFEF2800C587562972 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFEBAA6C03C00EE947F49EA72031674 /* DDNumber.m */; };
+		90834BE7AB2F0959AD49C0B0F652BED8 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E34A26A146DB708D684C78C473F8B41 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9583E383B0F255FB9B1BCF599C7A0B5E /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 298C1AFB11D677F16B4EB839128475FC /* DDFileLogger.m */; };
+		95A53A4ED8541387ECA5391EC53A530A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E951ABA881736083B5B715CF0E253BC /* DDContextFilterLogFormatter.m */; };
+		97DAFB1F208D1A8EE2CE4758CC1A1878 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E4944A5A98BA27803E3003F5DCA606 /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FBCEADC039CABFF68669E4781DE4836 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 82034412A41B55DF58774C512A4770BF /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3493D16962203191217259F6A37B19F /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B1480DBA7D422834983B3716430AA24B /* MultipartMessageHeader.m */; };
+		A3B021251EA3D2BF876B31B40B43B05C /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = BA62CAB078222BE398C9C0EECEAE2A1E /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A49F353CC52A947888977C341EE2EB67 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6FCBB0EFFF56A7502F2D52A769E2DA /* HTTPAuthenticationRequest.m */; };
+		A677B56443E42EAAA9F2433EC7E8EE13 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE66E11C45C018D1E948F48DA777C80 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A761D5519EB76042B40900267F6ACCCF /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B142DD767C702846C7E4E90BDFEF6 /* DDASLLogger.m */; };
+		A9A2DF5E5D12B7E498EB6789544788D2 /* UIView+ZZWiFiView.h in Headers */ = {isa = PBXBuildFile; fileRef = AABF5A21759F80F7AFDA34272FE8392B /* UIView+ZZWiFiView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BD6EDC0F9AB579B84418682EBE0FCC /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903421EA2D5E71C78FEFF305FBE8712 /* MultipartFormDataParser.m */; };
+		B89C30DD82E1EF9D99EBA91EA70222B6 /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DC61F96FDD44858D6B3EB660B90E85F1 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1B9F4F0E3C428ABEE5137A0677613DD /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BE2FE62DE1E921065B32DCD27F4FF9 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60513844494FEDB4838CFF63FADF300 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 569409A124B07DFA68E1E4D735AD0EDA /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF2426B09BB46C007769FED970CD791 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 612E02C1558C683FE27CAA562D706A5E /* DDLog.m */; };
+		CBC58F0392A4A045D112BC8D0CCCE598 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECA94B6974ED3B9AE8DDB3C2937901E /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF48726B6080D35F276614F427755E91 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C0C424C6591A34C295F0115D7538ED /* DDDispatchQueueLogFormatter.m */; };
+		CF94827DEAC1B29149F4857F1002D23C /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06262FAC396827DCEF20A9ED1BC54C9F /* HTTPMessage.m */; };
+		CFF4E5D0890345FA12D64B0C1C175231 /* Pods-ZZMakeWiFiManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F47E5C9C33B41C61C54A7ED4A0336A /* Pods-ZZMakeWiFiManager_Example-dummy.m */; };
+		D318C41D32376313CEE6632A075996D4 /* ZZMakeWiFiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724AFE29E6DE1070A98BA6D40502707 /* ZZMakeWiFiManager.m */; };
+		D63ACA5796790D810D23A29C570AF65C /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A39BA38680D7A92A86E38CE19EA353 /* MyHTTPConnection.m */; };
+		D9FA8C552CF99A12A848B99131391ADB /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C54BFC48C0FC8B9F003DB296E519F4 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEDDE5F4DDC166952499759DEBA0DA05 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EA122A650D3596EDC0515BA50A45F /* HTTPErrorResponse.m */; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BFBDC489646EA12069619FF261935D /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A043002E14EC712E56CC7F5C56C0AD /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB7E8003C5650694B946E0E29B84E00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		EC46F53C8B47B11B7D07C6C6A52B2A55 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C3497826A851191F4B69D6423C31BB /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1887596FF4F8C16ED164CAC5E876B9 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DEBF41A1C167914BBC118B1BD6A4E2 /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC3905E983B207DFD27CFBC3C9452E3 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D1E39A30795F5049EE14C6E1E1D630 /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3221EAD4CBACE51E6F97B3256225ECD /* ZZMakeWiFiManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E354E5583ECECE4C9AD63F453789A /* ZZMakeWiFiManager-dummy.m */; };
+		F3E40E5022AB5B0E64F6926C890300F0 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BF442911B1306C33FBD55CFE5ED455 /* DDRange.m */; };
+		FA2B89164DFCE003E2014D383BF94EC1 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFCC46AD8E8CA6E6F28F7219858453F /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C7C4F274261358FE8B74D0BC98BC765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8A9D4C987B4B1649A01BA2150EEA8F;
+			remoteInfo = ZZMakeWiFiManager;
+		};
+		9F21E77079FE2BD42199D8AA2EF1E877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		B940700108F647770AD2E434611AFB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		C3934C216866066BB7BF3B288EF79421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F032BB724781D99AEA945D17E232860;
+			remoteInfo = "Pods-ZZMakeWiFiManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D1E39A30795F5049EE14C6E1E1D630 /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		01F47E5C9C33B41C61C54A7ED4A0336A /* Pods-ZZMakeWiFiManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZMakeWiFiManager_Example-dummy.m"; sourceTree = "<group>"; };
+		04E045EE56FE47FDCF6FC38867FA1AFC /* MyHTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
+		05729202B110DE89D6DDA579398C96EF /* ZZMakeWiFiManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZMakeWiFiManager.framework; path = ZZMakeWiFiManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06262FAC396827DCEF20A9ED1BC54C9F /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		08BF442911B1306C33FBD55CFE5ED455 /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		0BB91CE1FCC3C167C519510CD604B298 /* DHIPAdress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHIPAdress.m; sourceTree = "<group>"; };
+		0D9D314E1DFEFA5EBC86E564F10C685A /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		0FFCC46AD8E8CA6E6F28F7219858453F /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		1724AFE29E6DE1070A98BA6D40502707 /* ZZMakeWiFiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZMakeWiFiManager.m; path = ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/ZZMakeWiFiManager.m; sourceTree = "<group>"; };
+		186EA122A650D3596EDC0515BA50A45F /* HTTPErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
+		19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1A069ECF6DCFB25432F3752A894F584B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		1B8D85E526A4712D81E8A710D7F9C613 /* ZZMakeWiFiManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZMakeWiFiManager-prefix.pch"; sourceTree = "<group>"; };
+		23BE2FE62DE1E921065B32DCD27F4FF9 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		24B8C64833DE14035B56B0F0837259DA /* Pods-ZZMakeWiFiManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZMakeWiFiManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		273FFA32F7967C85E3E629CE87FB143D /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		287E354E5583ECECE4C9AD63F453789A /* ZZMakeWiFiManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZMakeWiFiManager-dummy.m"; sourceTree = "<group>"; };
+		298C1AFB11D677F16B4EB839128475FC /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		2DA79AEBFCAD3F005DE777F447E53AD8 /* upload.html */ = {isa = PBXFileReference; includeInIndex = 1; path = upload.html; sourceTree = "<group>"; };
+		30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		32BA72647C8338152A7113D74DE8A93A /* DHIPAdress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHIPAdress.h; sourceTree = "<group>"; };
+		32DEBF41A1C167914BBC118B1BD6A4E2 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		3582ACAC5C6194C87C71D6F3374F4DD3 /* Pods-ZZMakeWiFiManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZMakeWiFiManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3903421EA2D5E71C78FEFF305FBE8712 /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
+		39138A21456C1BA7479352444103ACF6 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		3E34A26A146DB708D684C78C473F8B41 /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		4233FDA2D38AFCF0523F56E93D3124C2 /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		42E4944A5A98BA27803E3003F5DCA606 /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		474002C8D5159D6D0CC8500A54947C7A /* Pods_ZZMakeWiFiManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZMakeWiFiManager_Example.framework; path = "Pods-ZZMakeWiFiManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0CE9C8C7852FC1C78FA2DB6601B398 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		4ECA94B6974ED3B9AE8DDB3C2937901E /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		509CBC2C68AA52FD06D919750A7CC8BC /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		50C62BE6C873D8F71DBE30AA1B7B713E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5141C61D36CFBBD90445014E65854C76 /* Pods-ZZMakeWiFiManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMakeWiFiManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		521959157E09A4E5FB2595E260801789 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		5331033638262EB98E7347B4130C4710 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		560B5BB45BAC1CDFF6A162DA01AFCEC7 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		569409A124B07DFA68E1E4D735AD0EDA /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		57633C9924907B1FAAFA96F120F1C707 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		59ABBC810C7544F5CA08382FE523C140 /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		5BF16A7506BA6572862C3BE4D04A0767 /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		612E02C1558C683FE27CAA562D706A5E /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		684199E237AEF382ADB748319042E51C /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		6B8B932437143EB9E6FDCDC782E0523F /* UIView+ZZWiFiView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZZWiFiView.m"; path = "ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/UIView+ZZWiFiView.m"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6E951ABA881736083B5B715CF0E253BC /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		70E623D7AFB954AF46062DDAD75CDBCE /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
+		7344A83548F04E8B331D922A8F871794 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		734FD6762DAFE95851EB72DF0F65C894 /* ZZMakeWiFiMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZMakeWiFiMacro.h; path = ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/ZZMakeWiFiMacro.h; sourceTree = "<group>"; };
+		75C9A1BEBB98022DE200618923A2F70E /* ZZMakeWiFiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZMakeWiFiManager.h; path = ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/ZZMakeWiFiManager.h; sourceTree = "<group>"; };
+		77B5B53695A825C2B8B627317C9DB8DC /* Pods-ZZMakeWiFiManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZMakeWiFiManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		786F00886AE68BCB4A2BCA828B6C8B85 /* Pods-ZZMakeWiFiManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMakeWiFiManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B46A9DBAA49C9205C8F90CE3BFBB708 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		81B1942FB8AEABB3FE9AD5F1F7A31ED4 /* Pods-ZZMakeWiFiManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMakeWiFiManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82034412A41B55DF58774C512A4770BF /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		86A39BA38680D7A92A86E38CE19EA353 /* MyHTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = "<group>"; };
+		8AD28D72572087F8257555948732527E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8D964276B58058A75E17B0B849023B39 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9BDAB7F516A9F0BAE08B400AF86FF421 /* Pods-ZZMakeWiFiManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZMakeWiFiManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E69C460810D6AA2D69A18F7EF80DC06 /* HTTPErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
+		9F7DCC8FCA94356B226283958954AAEE /* ZZMakeWiFiManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZMakeWiFiManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BCCAF535CB9F0972EB2AC102F946AE /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
+		A597FE12786EA6C7A3207DFE12E9E061 /* Pods-ZZMakeWiFiManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZMakeWiFiManager_Tests.modulemap"; sourceTree = "<group>"; };
+		A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A7D3A8A82525E40318D8CCC20ECF6B62 /* Pods-ZZMakeWiFiManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZMakeWiFiManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8C54BFC48C0FC8B9F003DB296E519F4 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		A91A8FD4776F9CA12907A83B4D174C4D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; path = index.html; sourceTree = "<group>"; };
+		AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		AABF5A21759F80F7AFDA34272FE8392B /* UIView+ZZWiFiView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZZWiFiView.h"; path = "ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/UIView+ZZWiFiView.h"; sourceTree = "<group>"; };
+		AECCE7B08E726A6C340809DE20A0D332 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		AF6FCBB0EFFF56A7502F2D52A769E2DA /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		AF8CD46F7AFD09FBC55712B533D60690 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		B0CFE2EE2A7A54EE926153548A32F106 /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
+		B1480DBA7D422834983B3716430AA24B /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
+		B1D84EEAB88E3B3CE3046A4D65B152E2 /* ZZMakeWiFiManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZZMakeWiFiManager-Info.plist"; sourceTree = "<group>"; };
+		B42E9E11F554AF28ED6105728817A3C6 /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		B493FB589283D1BC05DBF32076DB75D6 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
+		B4FBF4ED2E69555994DCFBBC1B6D7902 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		B5C3497826A851191F4B69D6423C31BB /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		B6381378DBFEF4084F89C529D7BD8F90 /* ZZMakeWiFiManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZMakeWiFiManager-umbrella.h"; sourceTree = "<group>"; };
+		B7A043002E14EC712E56CC7F5C56C0AD /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		BA62CAB078222BE398C9C0EECEAE2A1E /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		BEF2A55A581DB9119CBBD1729961B989 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		C143289ECB1B18E9F0E303C668705A1D /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		C4F410813746A844273A52C612390530 /* Pods-ZZMakeWiFiManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZMakeWiFiManager_Example.modulemap"; sourceTree = "<group>"; };
+		C74DAC417751040EFFAC20BE39756C1D /* Pods-ZZMakeWiFiManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZMakeWiFiManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFEBAA6C03C00EE947F49EA72031674 /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		D12C518FBEF442B2620DD50597E4160A /* Pods-ZZMakeWiFiManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZMakeWiFiManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8B142DD767C702846C7E4E90BDFEF6 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		DB348137E1C49BD4453F6F6E037176A3 /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		DC61F96FDD44858D6B3EB660B90E85F1 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		DEB638490AC3FE2ADEE56A09A3CED304 /* Pods_ZZMakeWiFiManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZMakeWiFiManager_Tests.framework; path = "Pods-ZZMakeWiFiManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B6B9467EE8E056F353A29AA9460460 /* ZZMakeWiFiManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZMakeWiFiManager.modulemap; sourceTree = "<group>"; };
+		E3BB509C423EEF980B3706228CCE6F88 /* Pods-ZZMakeWiFiManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZMakeWiFiManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E484F037B807D7B1ECF003384573173D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		E916E22ED0988917AE64FC3FD02D0786 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		ECE66E11C45C018D1E948F48DA777C80 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		F22FD24057E1770381E08E1307060221 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		F274C9AE6AAF6605F6F04CEFE4B02F43 /* ZZMakeWiFiManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZMakeWiFiManager.xcconfig; sourceTree = "<group>"; };
+		F549B405F3C830450F52A156663C97F7 /* Pods-ZZMakeWiFiManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZMakeWiFiManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5B548900C1B1954723BB136416A287F /* Pods-ZZMakeWiFiManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZMakeWiFiManager_Example-Info.plist"; sourceTree = "<group>"; };
+		F9C0C424C6591A34C295F0115D7538ED /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		FA2EC5FF4CC54F62D9E9E3D119EB9C47 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		FE5A9BB540B2A583A69CB542C316F44E /* Pods-ZZMakeWiFiManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZMakeWiFiManager_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A14E542C7F039017E36B20F8FFDC429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2430DB776FB04F6C44DF529EEB6CD87A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */,
+				14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */,
+				0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54DF1D0241DCD30FADBCAF38B885F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3203600D6021AFFB855DA4DDDE6A2D5A /* CocoaAsyncSocket.framework in Frameworks */,
+				1CE256D37A315EEF5E157267ACA95DA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36E233B05D6A15F339C17C9E5B42548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E8003C5650694B946E0E29B84E00A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8C68FEC1A2B388C93FC2A5668AB1B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				560B5BB45BAC1CDFF6A162DA01AFCEC7 /* DDContextFilterLogFormatter.h */,
+				6E951ABA881736083B5B715CF0E253BC /* DDContextFilterLogFormatter.m */,
+				509CBC2C68AA52FD06D919750A7CC8BC /* DDDispatchQueueLogFormatter.h */,
+				F9C0C424C6591A34C295F0115D7538ED /* DDDispatchQueueLogFormatter.m */,
+				BEF2A55A581DB9119CBBD1729961B989 /* DDMultiFormatter.h */,
+				4C0CE9C8C7852FC1C78FA2DB6601B398 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A3E0EE19DF23E1AD41A79EC8048EC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */,
+				8B66D2A83B3C862556E6C08280F315F2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3869884050A6D37B634571335234D224 /* ZZMakeCocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				32BA72647C8338152A7113D74DE8A93A /* DHIPAdress.h */,
+				0BB91CE1FCC3C167C519510CD604B298 /* DHIPAdress.m */,
+				A91A8FD4776F9CA12907A83B4D174C4D /* index.html */,
+				04E045EE56FE47FDCF6FC38867FA1AFC /* MyHTTPConnection.h */,
+				86A39BA38680D7A92A86E38CE19EA353 /* MyHTTPConnection.m */,
+				2DA79AEBFCAD3F005DE777F447E53AD8 /* upload.html */,
+				885AE3ACA2AA1E08DEC124097E4DE829 /* CocoaHTTPServer */,
+				9265A8337F6E0890ED34E15F33D5DBC8 /* CocoaLumberjack */,
+			);
+			name = ZZMakeCocoaHTTPServer;
+			path = ZZMakeWiFiManager/Classes/ZZMakeWiFiManager/ZZMakeCocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		53F49C87CEF82BF6364E774C092E088C /* Pods-ZZMakeWiFiManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A597FE12786EA6C7A3207DFE12E9E061 /* Pods-ZZMakeWiFiManager_Tests.modulemap */,
+				E3BB509C423EEF980B3706228CCE6F88 /* Pods-ZZMakeWiFiManager_Tests-acknowledgements.markdown */,
+				F549B405F3C830450F52A156663C97F7 /* Pods-ZZMakeWiFiManager_Tests-acknowledgements.plist */,
+				FE5A9BB540B2A583A69CB542C316F44E /* Pods-ZZMakeWiFiManager_Tests-dummy.m */,
+				9BDAB7F516A9F0BAE08B400AF86FF421 /* Pods-ZZMakeWiFiManager_Tests-Info.plist */,
+				77B5B53695A825C2B8B627317C9DB8DC /* Pods-ZZMakeWiFiManager_Tests-umbrella.h */,
+				C74DAC417751040EFFAC20BE39756C1D /* Pods-ZZMakeWiFiManager_Tests.debug.xcconfig */,
+				786F00886AE68BCB4A2BCA828B6C8B85 /* Pods-ZZMakeWiFiManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZZMakeWiFiManager_Tests";
+			path = "Target Support Files/Pods-ZZMakeWiFiManager_Tests";
+			sourceTree = "<group>";
+		};
+		58C7F52DE3EF9631FC8E9621FA263506 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6B9467EE8E056F353A29AA9460460 /* ZZMakeWiFiManager.modulemap */,
+				F274C9AE6AAF6605F6F04CEFE4B02F43 /* ZZMakeWiFiManager.xcconfig */,
+				287E354E5583ECECE4C9AD63F453789A /* ZZMakeWiFiManager-dummy.m */,
+				B1D84EEAB88E3B3CE3046A4D65B152E2 /* ZZMakeWiFiManager-Info.plist */,
+				1B8D85E526A4712D81E8A710D7F9C613 /* ZZMakeWiFiManager-prefix.pch */,
+				B6381378DBFEF4084F89C529D7BD8F90 /* ZZMakeWiFiManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZMakeWiFiManager";
+			sourceTree = "<group>";
+		};
+		5FBDE080C8FC6C9565E9B4F409BED6D5 /* ZZMakeWiFiManager */ = {
+			isa = PBXGroup;
+			children = (
+				AABF5A21759F80F7AFDA34272FE8392B /* UIView+ZZWiFiView.h */,
+				6B8B932437143EB9E6FDCDC782E0523F /* UIView+ZZWiFiView.m */,
+				734FD6762DAFE95851EB72DF0F65C894 /* ZZMakeWiFiMacro.h */,
+				75C9A1BEBB98022DE200618923A2F70E /* ZZMakeWiFiManager.h */,
+				1724AFE29E6DE1070A98BA6D40502707 /* ZZMakeWiFiManager.m */,
+				8E212992F619BF098923A403856C7F98 /* Pod */,
+				58C7F52DE3EF9631FC8E9621FA263506 /* Support Files */,
+				3869884050A6D37B634571335234D224 /* ZZMakeCocoaHTTPServer */,
+			);
+			name = ZZMakeWiFiManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		78A52C3FFE6F59CECDE977E075D801D0 /* Pods-ZZMakeWiFiManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4F410813746A844273A52C612390530 /* Pods-ZZMakeWiFiManager_Example.modulemap */,
+				A7D3A8A82525E40318D8CCC20ECF6B62 /* Pods-ZZMakeWiFiManager_Example-acknowledgements.markdown */,
+				3582ACAC5C6194C87C71D6F3374F4DD3 /* Pods-ZZMakeWiFiManager_Example-acknowledgements.plist */,
+				01F47E5C9C33B41C61C54A7ED4A0336A /* Pods-ZZMakeWiFiManager_Example-dummy.m */,
+				D12C518FBEF442B2620DD50597E4160A /* Pods-ZZMakeWiFiManager_Example-frameworks.sh */,
+				F5B548900C1B1954723BB136416A287F /* Pods-ZZMakeWiFiManager_Example-Info.plist */,
+				24B8C64833DE14035B56B0F0837259DA /* Pods-ZZMakeWiFiManager_Example-umbrella.h */,
+				5141C61D36CFBBD90445014E65854C76 /* Pods-ZZMakeWiFiManager_Example.debug.xcconfig */,
+				81B1942FB8AEABB3FE9AD5F1F7A31ED4 /* Pods-ZZMakeWiFiManager_Example.release.xcconfig */,
+			);
+			name = "Pods-ZZMakeWiFiManager_Example";
+			path = "Target Support Files/Pods-ZZMakeWiFiManager_Example";
+			sourceTree = "<group>";
+		};
+		8358C1729A678A07C82B8AE1BB34E83F /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+				B0CFE2EE2A7A54EE926153548A32F106 /* MultipartFormDataParser.h */,
+				3903421EA2D5E71C78FEFF305FBE8712 /* MultipartFormDataParser.m */,
+				B493FB589283D1BC05DBF32076DB75D6 /* MultipartMessageHeader.h */,
+				B1480DBA7D422834983B3716430AA24B /* MultipartMessageHeader.m */,
+				32DEBF41A1C167914BBC118B1BD6A4E2 /* MultipartMessageHeaderField.h */,
+				8D964276B58058A75E17B0B849023B39 /* MultipartMessageHeaderField.m */,
+			);
+			name = Mime;
+			path = Mime;
+			sourceTree = "<group>";
+		};
+		838252BC1C68211975C4DDAEE6F9F882 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78A52C3FFE6F59CECDE977E075D801D0 /* Pods-ZZMakeWiFiManager_Example */,
+				53F49C87CEF82BF6364E774C092E088C /* Pods-ZZMakeWiFiManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83DF900D73A84735C4753428A2B8CAA5 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A8C54BFC48C0FC8B9F003DB296E519F4 /* HTTPAsyncFileResponse.h */,
+				AF8CD46F7AFD09FBC55712B533D60690 /* HTTPAsyncFileResponse.m */,
+				DC61F96FDD44858D6B3EB660B90E85F1 /* HTTPDataResponse.h */,
+				273FFA32F7967C85E3E629CE87FB143D /* HTTPDataResponse.m */,
+				B7A043002E14EC712E56CC7F5C56C0AD /* HTTPDynamicFileResponse.h */,
+				B4FBF4ED2E69555994DCFBBC1B6D7902 /* HTTPDynamicFileResponse.m */,
+				9E69C460810D6AA2D69A18F7EF80DC06 /* HTTPErrorResponse.h */,
+				186EA122A650D3596EDC0515BA50A45F /* HTTPErrorResponse.m */,
+				70E623D7AFB954AF46062DDAD75CDBCE /* HTTPFileResponse.h */,
+				FA2EC5FF4CC54F62D9E9E3D119EB9C47 /* HTTPFileResponse.m */,
+				0D9D314E1DFEFA5EBC86E564F10C685A /* HTTPRedirectResponse.h */,
+				AECCE7B08E726A6C340809DE20A0D332 /* HTTPRedirectResponse.m */,
+			);
+			name = Responses;
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		885AE3ACA2AA1E08DEC124097E4DE829 /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				569409A124B07DFA68E1E4D735AD0EDA /* HTTPAuthenticationRequest.h */,
+				AF6FCBB0EFFF56A7502F2D52A769E2DA /* HTTPAuthenticationRequest.m */,
+				4233FDA2D38AFCF0523F56E93D3124C2 /* HTTPConnection.h */,
+				684199E237AEF382ADB748319042E51C /* HTTPConnection.m */,
+				A0BCCAF535CB9F0972EB2AC102F946AE /* HTTPLogging.h */,
+				59ABBC810C7544F5CA08382FE523C140 /* HTTPMessage.h */,
+				06262FAC396827DCEF20A9ED1BC54C9F /* HTTPMessage.m */,
+				3E34A26A146DB708D684C78C473F8B41 /* HTTPResponse.h */,
+				5BF16A7506BA6572862C3BE4D04A0767 /* HTTPServer.h */,
+				F22FD24057E1770381E08E1307060221 /* HTTPServer.m */,
+				01D1E39A30795F5049EE14C6E1E1D630 /* WebSocket.h */,
+				DB348137E1C49BD4453F6F6E037176A3 /* WebSocket.m */,
+				C9FEA2B7647CAF258A91A322CF3701C2 /* Categories */,
+				8358C1729A678A07C82B8AE1BB34E83F /* Mime */,
+				83DF900D73A84735C4753428A2B8CAA5 /* Responses */,
+			);
+			name = CocoaHTTPServer;
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		8B66D2A83B3C862556E6C08280F315F2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */,
+				E484F037B807D7B1ECF003384573173D /* Foundation.framework */,
+				19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8E212992F619BF098923A403856C7F98 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				50C62BE6C873D8F71DBE30AA1B7B713E /* LICENSE */,
+				8AD28D72572087F8257555948732527E /* README.md */,
+				9F7DCC8FCA94356B226283958954AAEE /* ZZMakeWiFiManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9265A8337F6E0890ED34E15F33D5DBC8 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				E916E22ED0988917AE64FC3FD02D0786 /* CocoaLumberjack.h */,
+				ECE66E11C45C018D1E948F48DA777C80 /* DDAbstractDatabaseLogger.h */,
+				1A069ECF6DCFB25432F3752A894F584B /* DDAbstractDatabaseLogger.m */,
+				7B46A9DBAA49C9205C8F90CE3BFBB708 /* DDASLLogCapture.h */,
+				57633C9924907B1FAAFA96F120F1C707 /* DDASLLogCapture.m */,
+				4ECA94B6974ED3B9AE8DDB3C2937901E /* DDASLLogger.h */,
+				DA8B142DD767C702846C7E4E90BDFEF6 /* DDASLLogger.m */,
+				5331033638262EB98E7347B4130C4710 /* DDAssertMacros.h */,
+				82034412A41B55DF58774C512A4770BF /* DDFileLogger.h */,
+				298C1AFB11D677F16B4EB839128475FC /* DDFileLogger.m */,
+				0FFCC46AD8E8CA6E6F28F7219858453F /* DDLegacyMacros.h */,
+				C143289ECB1B18E9F0E303C668705A1D /* DDLog.h */,
+				612E02C1558C683FE27CAA562D706A5E /* DDLog.m */,
+				7344A83548F04E8B331D922A8F871794 /* DDLog+LOGV.h */,
+				23BE2FE62DE1E921065B32DCD27F4FF9 /* DDLogMacros.h */,
+				39138A21456C1BA7479352444103ACF6 /* DDTTYLogger.h */,
+				521959157E09A4E5FB2595E260801789 /* DDTTYLogger.m */,
+				0D8C68FEC1A2B388C93FC2A5668AB1B3 /* Extensions */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		93AFE93685FAB5277054F2BF6224741A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				474002C8D5159D6D0CC8500A54947C7A /* Pods_ZZMakeWiFiManager_Example.framework */,
+				DEB638490AC3FE2ADEE56A09A3CED304 /* Pods_ZZMakeWiFiManager_Tests.framework */,
+				05729202B110DE89D6DDA579398C96EF /* ZZMakeWiFiManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */,
+				6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */,
+				AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */,
+				A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */,
+				B862B4264C2F1D9F87C12772C46C54AE /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		B862B4264C2F1D9F87C12772C46C54AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */,
+				85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */,
+				99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */,
+				DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */,
+				A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */,
+				E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9FEA2B7647CAF258A91A322CF3701C2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA62CAB078222BE398C9C0EECEAE2A1E /* DDData.h */,
+				B42E9E11F554AF28ED6105728817A3C6 /* DDData.m */,
+				42E4944A5A98BA27803E3003F5DCA606 /* DDNumber.h */,
+				CBFEBAA6C03C00EE947F49EA72031674 /* DDNumber.m */,
+				B5C3497826A851191F4B69D6423C31BB /* DDRange.h */,
+				08BF442911B1306C33FBD55CFE5ED455 /* DDRange.m */,
+			);
+			name = Categories;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CD5BACFFE4579D7E492E24133F5FE83E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FBDE080C8FC6C9565E9B4F409BED6D5 /* ZZMakeWiFiManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CD5BACFFE4579D7E492E24133F5FE83E /* Development Pods */,
+				1A3E0EE19DF23E1AD41A79EC8048EC9E /* Frameworks */,
+				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
+				93AFE93685FAB5277054F2BF6224741A /* Products */,
+				838252BC1C68211975C4DDAEE6F9F882 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B140693CE4A584142080B3EE54108FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C697BCC0F5AE17EBA639DD7D2183934 /* CocoaLumberjack.h in Headers */,
+				A677B56443E42EAAA9F2433EC7E8EE13 /* DDAbstractDatabaseLogger.h in Headers */,
+				2B3481C0B826985EE43CCCE061B3E93B /* DDASLLogCapture.h in Headers */,
+				CBC58F0392A4A045D112BC8D0CCCE598 /* DDASLLogger.h in Headers */,
+				5E09B2533A5CB36124DBFEAA6E8BCE60 /* DDAssertMacros.h in Headers */,
+				3D1DE7CF839E46E849FED929E4F0BA1D /* DDContextFilterLogFormatter.h in Headers */,
+				A3B021251EA3D2BF876B31B40B43B05C /* DDData.h in Headers */,
+				58A694FD9D4A362D41256BD8D44EE74D /* DDDispatchQueueLogFormatter.h in Headers */,
+				9FBCEADC039CABFF68669E4781DE4836 /* DDFileLogger.h in Headers */,
+				FA2B89164DFCE003E2014D383BF94EC1 /* DDLegacyMacros.h in Headers */,
+				7C662C69E139A1DD34046510B6159F53 /* DDLog+LOGV.h in Headers */,
+				18E6C37C0BD6CF63E801BCB706536905 /* DDLog.h in Headers */,
+				C1B9F4F0E3C428ABEE5137A0677613DD /* DDLogMacros.h in Headers */,
+				56E356D9E1492876B8623750A54AEFE3 /* DDMultiFormatter.h in Headers */,
+				97DAFB1F208D1A8EE2CE4758CC1A1878 /* DDNumber.h in Headers */,
+				EC46F53C8B47B11B7D07C6C6A52B2A55 /* DDRange.h in Headers */,
+				3D313ED4285E800B19A967F82D845BA8 /* DDTTYLogger.h in Headers */,
+				4731CCAB4E87F5B6CF9C79F59269C034 /* DHIPAdress.h in Headers */,
+				D9FA8C552CF99A12A848B99131391ADB /* HTTPAsyncFileResponse.h in Headers */,
+				C60513844494FEDB4838CFF63FADF300 /* HTTPAuthenticationRequest.h in Headers */,
+				267738383AD105DB2C90B65C3EEFCE9A /* HTTPConnection.h in Headers */,
+				B89C30DD82E1EF9D99EBA91EA70222B6 /* HTTPDataResponse.h in Headers */,
+				E1BFBDC489646EA12069619FF261935D /* HTTPDynamicFileResponse.h in Headers */,
+				8711E8E2BE460C32231F2199EF55FBD7 /* HTTPErrorResponse.h in Headers */,
+				405DF4129B5E3C45FD8496916E0AB031 /* HTTPFileResponse.h in Headers */,
+				10FF791F39D8A8D23FE4C0D81312D94A /* HTTPLogging.h in Headers */,
+				5A92A19F589E587EDD30EF16AA4C1EB0 /* HTTPMessage.h in Headers */,
+				09F6B6211AD1BF4C8355D6EA12C45A5E /* HTTPRedirectResponse.h in Headers */,
+				90834BE7AB2F0959AD49C0B0F652BED8 /* HTTPResponse.h in Headers */,
+				142CBDD94CC924C3A51C0C0EADA140DE /* HTTPServer.h in Headers */,
+				2D41DB01C4AA74B08900C6C2C0B40653 /* MultipartFormDataParser.h in Headers */,
+				88521238558B53A7CF55BBADCE1BE95C /* MultipartMessageHeader.h in Headers */,
+				ED1887596FF4F8C16ED164CAC5E876B9 /* MultipartMessageHeaderField.h in Headers */,
+				8671262578D9552152283D894A2B34C9 /* MyHTTPConnection.h in Headers */,
+				A9A2DF5E5D12B7E498EB6789544788D2 /* UIView+ZZWiFiView.h in Headers */,
+				EFC3905E983B207DFD27CFBC3C9452E3 /* WebSocket.h in Headers */,
+				69DE47EE88436AD4C157527CEB68AB6D /* ZZMakeWiFiMacro.h in Headers */,
+				09BF6EAABDC267C3EAB6F89D27911652 /* ZZMakeWiFiManager-umbrella.h in Headers */,
+				60CC164FF33B9AB19DBE75CD179BB6F7 /* ZZMakeWiFiManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F4A1259060052B007D54FED521B5EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211A62039B06112F3A38F6B254F5A8F /* Pods-ZZMakeWiFiManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E8600D2758292A42894C71335D1971 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14F33407A67ADC527C4AF2A21D6A75 /* Pods-ZZMakeWiFiManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
+				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E8A9D4C987B4B1649A01BA2150EEA8F /* ZZMakeWiFiManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED1B7DE218AFA468846092C9187987 /* Build configuration list for PBXNativeTarget "ZZMakeWiFiManager" */;
+			buildPhases = (
+				3B140693CE4A584142080B3EE54108FD /* Headers */,
+				6D9E7EB84092C0989D57C03A02E5DCE7 /* Sources */,
+				D54DF1D0241DCD30FADBCAF38B885F03 /* Frameworks */,
+				C5ED8E4CCF6F8D18625C1E26BC55CBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306A3029E759155859D7166C3F2BB86D /* PBXTargetDependency */,
+			);
+			name = ZZMakeWiFiManager;
+			productName = ZZMakeWiFiManager;
+			productReference = 05729202B110DE89D6DDA579398C96EF /* ZZMakeWiFiManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F032BB724781D99AEA945D17E232860 /* Pods-ZZMakeWiFiManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538EA40DA7A83D8E0ED73B6AE767FEE4 /* Build configuration list for PBXNativeTarget "Pods-ZZMakeWiFiManager_Example" */;
+			buildPhases = (
+				99F4A1259060052B007D54FED521B5EC /* Headers */,
+				B7D15BD032B7FC011070832993551FB1 /* Sources */,
+				0A14E542C7F039017E36B20F8FFDC429 /* Frameworks */,
+				B7BA1738C779D7A0A69FD1200F775E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C51818F42F5BCC8C31E849DAD0037B /* PBXTargetDependency */,
+				8331AEFCDA1E09470E2D76BBA7058988 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZZMakeWiFiManager_Example";
+			productName = "Pods-ZZMakeWiFiManager_Example";
+			productReference = 474002C8D5159D6D0CC8500A54947C7A /* Pods_ZZMakeWiFiManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				F82807D639FCFDF56A607D3970098A87 /* Headers */,
+				398D9830C2C4A6872C9EEC588214E124 /* Sources */,
+				160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */,
+				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2FEAB177CD48C55846BF7CFAD92DD64 /* Pods-ZZMakeWiFiManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFDF23C2B2D4F0CAE1ACC2DA884C3B9 /* Build configuration list for PBXNativeTarget "Pods-ZZMakeWiFiManager_Tests" */;
+			buildPhases = (
+				E3E8600D2758292A42894C71335D1971 /* Headers */,
+				37405714AE8191F6EBE3FBFCCA4CDAFB /* Sources */,
+				F36E233B05D6A15F339C17C9E5B42548 /* Frameworks */,
+				7C70413185E886D577BCEA12DA891E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548A22871332B37CAF5D4FDD3375F782 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZZMakeWiFiManager_Tests";
+			productName = "Pods-ZZMakeWiFiManager_Tests";
+			productReference = DEB638490AC3FE2ADEE56A09A3CED304 /* Pods_ZZMakeWiFiManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 93AFE93685FAB5277054F2BF6224741A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				4F032BB724781D99AEA945D17E232860 /* Pods-ZZMakeWiFiManager_Example */,
+				C2FEAB177CD48C55846BF7CFAD92DD64 /* Pods-ZZMakeWiFiManager_Tests */,
+				1E8A9D4C987B4B1649A01BA2150EEA8F /* ZZMakeWiFiManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C70413185E886D577BCEA12DA891E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BA1738C779D7A0A69FD1200F775E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5ED8E4CCF6F8D18625C1E26BC55CBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37405714AE8191F6EBE3FBFCCA4CDAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430E6CC23F4BD1CA3A692E6B14BEC62A /* Pods-ZZMakeWiFiManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398D9830C2C4A6872C9EEC588214E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */,
+				1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */,
+				BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9E7EB84092C0989D57C03A02E5DCE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDBB9FB0396726D02A9AFF178DE975E /* DDAbstractDatabaseLogger.m in Sources */,
+				42B8F0C2BAD2EF77C66DD262E17CFFBE /* DDASLLogCapture.m in Sources */,
+				A761D5519EB76042B40900267F6ACCCF /* DDASLLogger.m in Sources */,
+				95A53A4ED8541387ECA5391EC53A530A /* DDContextFilterLogFormatter.m in Sources */,
+				824D8D615997CABBB9B7748D789126B9 /* DDData.m in Sources */,
+				CF48726B6080D35F276614F427755E91 /* DDDispatchQueueLogFormatter.m in Sources */,
+				9583E383B0F255FB9B1BCF599C7A0B5E /* DDFileLogger.m in Sources */,
+				CAF2426B09BB46C007769FED970CD791 /* DDLog.m in Sources */,
+				5D0BC5912A629C73C0E0FBAF25AB29D3 /* DDMultiFormatter.m in Sources */,
+				8BBD9A6C7ADCBFAFEF2800C587562972 /* DDNumber.m in Sources */,
+				F3E40E5022AB5B0E64F6926C890300F0 /* DDRange.m in Sources */,
+				3FB9B5D5FEB50EBEAE9F97CBED3F457B /* DDTTYLogger.m in Sources */,
+				0A6AB6F5E01E65B31FA83A5E20DA05BB /* DHIPAdress.m in Sources */,
+				38C2FEA9E37A9DBEC88F8240025B2183 /* HTTPAsyncFileResponse.m in Sources */,
+				A49F353CC52A947888977C341EE2EB67 /* HTTPAuthenticationRequest.m in Sources */,
+				2C0B95AEC58577C03691B8D63786932B /* HTTPConnection.m in Sources */,
+				61B8208476AC4454AA6D3DE6DD75843A /* HTTPDataResponse.m in Sources */,
+				52800EAE53044C1EDE33CD565858860A /* HTTPDynamicFileResponse.m in Sources */,
+				DEDDE5F4DDC166952499759DEBA0DA05 /* HTTPErrorResponse.m in Sources */,
+				5A829E84572C86E3E109552056B0F3CE /* HTTPFileResponse.m in Sources */,
+				CF94827DEAC1B29149F4857F1002D23C /* HTTPMessage.m in Sources */,
+				848CD1944CBE4D0FF445E8C08EC7C1CE /* HTTPRedirectResponse.m in Sources */,
+				27346529B0E395824B8683EFAA3A0ADC /* HTTPServer.m in Sources */,
+				32C4947375F6CA00DF542EBD0792CDA2 /* index.html in Sources */,
+				B2BD6EDC0F9AB579B84418682EBE0FCC /* MultipartFormDataParser.m in Sources */,
+				A3493D16962203191217259F6A37B19F /* MultipartMessageHeader.m in Sources */,
+				36D3041FE8369DABDFB995CDF9B37A6C /* MultipartMessageHeaderField.m in Sources */,
+				D63ACA5796790D810D23A29C570AF65C /* MyHTTPConnection.m in Sources */,
+				25F25DFEA4A5E8A70489A4023A40F5B9 /* UIView+ZZWiFiView.m in Sources */,
+				4DF11DD4F6A166172D91BA4B273750E9 /* upload.html in Sources */,
+				4C03506A9C94B4A34C5E9C57BA217313 /* WebSocket.m in Sources */,
+				F3221EAD4CBACE51E6F97B3256225ECD /* ZZMakeWiFiManager-dummy.m in Sources */,
+				D318C41D32376313CEE6632A075996D4 /* ZZMakeWiFiManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D15BD032B7FC011070832993551FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF4E5D0890345FA12D64B0C1C175231 /* Pods-ZZMakeWiFiManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306A3029E759155859D7166C3F2BB86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = B940700108F647770AD2E434611AFB67 /* PBXContainerItemProxy */;
+		};
+		47C51818F42F5BCC8C31E849DAD0037B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 9F21E77079FE2BD42199D8AA2EF1E877 /* PBXContainerItemProxy */;
+		};
+		548A22871332B37CAF5D4FDD3375F782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZZMakeWiFiManager_Example";
+			target = 4F032BB724781D99AEA945D17E232860 /* Pods-ZZMakeWiFiManager_Example */;
+			targetProxy = C3934C216866066BB7BF3B288EF79421 /* PBXContainerItemProxy */;
+		};
+		8331AEFCDA1E09470E2D76BBA7058988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZZMakeWiFiManager;
+			target = 1E8A9D4C987B4B1649A01BA2150EEA8F /* ZZMakeWiFiManager */;
+			targetProxy = 6C7C4F274261358FE8B74D0BC98BC765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C48BDDCDA5F9F34A580C24B0C4D1DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F274C9AE6AAF6605F6F04CEFE4B02F43 /* ZZMakeWiFiManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager.modulemap";
+				PRODUCT_MODULE_NAME = ZZMakeWiFiManager;
+				PRODUCT_NAME = ZZMakeWiFiManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		682DE4C2DE8F51D3FFDFE2219378B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EE6065709E71C9C38B5984918218A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B1942FB8AEABB3FE9AD5F1F7A31ED4 /* Pods-ZZMakeWiFiManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E4DF3B2B8F8A30AB48026E03A38823B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F274C9AE6AAF6605F6F04CEFE4B02F43 /* ZZMakeWiFiManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZMakeWiFiManager/ZZMakeWiFiManager.modulemap";
+				PRODUCT_MODULE_NAME = ZZMakeWiFiManager;
+				PRODUCT_NAME = ZZMakeWiFiManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8437C029E009B6CA12D58C4246036468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5141C61D36CFBBD90445014E65854C76 /* Pods-ZZMakeWiFiManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Example/Pods-ZZMakeWiFiManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92800043893EDE87DBA3EEF19FE4DCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74DAC417751040EFFAC20BE39756C1D /* Pods-ZZMakeWiFiManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC54AB23DE82580B5A0147FBD1875882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC63E0AC1B586D6F020CCB5E79CE8436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786F00886AE68BCB4A2BCA828B6C8B85 /* Pods-ZZMakeWiFiManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZMakeWiFiManager_Tests/Pods-ZZMakeWiFiManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ED1B7DE218AFA468846092C9187987 /* Build configuration list for PBXNativeTarget "ZZMakeWiFiManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C48BDDCDA5F9F34A580C24B0C4D1DFA /* Debug */,
+				7E4DF3B2B8F8A30AB48026E03A38823B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFDF23C2B2D4F0CAE1ACC2DA884C3B9 /* Build configuration list for PBXNativeTarget "Pods-ZZMakeWiFiManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92800043893EDE87DBA3EEF19FE4DCF8 /* Debug */,
+				DC63E0AC1B586D6F020CCB5E79CE8436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538EA40DA7A83D8E0ED73B6AE767FEE4 /* Build configuration list for PBXNativeTarget "Pods-ZZMakeWiFiManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437C029E009B6CA12D58C4246036468 /* Debug */,
+				6EE6065709E71C9C38B5984918218A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54AB23DE82580B5A0147FBD1875882 /* Debug */,
+				682DE4C2DE8F51D3FFDFE2219378B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

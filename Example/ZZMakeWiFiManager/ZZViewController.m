@@ -7,7 +7,7 @@
 //
 
 #import "ZZViewController.h"
-
+#import "ZZMakeWiFiManager.h"
 @interface ZZViewController ()
 
 @end
@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:(UIButtonTypeCustom)];
+    btn.frame = CGRectMake(100, 100, 100, 50);
+    [btn setTitle:@"开始Wifi" forState:(UIControlStateNormal)];
+    [btn setTitleColor:UIColor.orangeColor forState:(UIControlStateNormal)];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:btn];
+}
+-(void)btnClick{
+    ZZMakeWiFiManager *vc = [[ZZMakeWiFiManager alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

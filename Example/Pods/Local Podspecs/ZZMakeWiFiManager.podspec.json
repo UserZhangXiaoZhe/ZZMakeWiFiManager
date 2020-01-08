@@ -1,0 +1,27 @@
+{
+  "name": "ZZMakeWiFiManager",
+  "version": "1.0.0",
+  "summary": "利用WIFI电脑给手机传文件.",
+  "description": "利用WIFI电脑给手机传文件，只需2行代码",
+  "homepage": "https://github.com/UserZhangXiaoZhe/ZZMakeWiFiManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "UserZhangXiaoZhe": "zaihuishou223@163.com"
+  },
+  "source": {
+    "git": "https://github.com/UserZhangXiaoZhe/ZZMakeWiFiManager.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZZMakeWiFiManager/Classes/**/*",
+  "dependencies": {
+    "CocoaAsyncSocket": [
+
+    ]
+  }
+}

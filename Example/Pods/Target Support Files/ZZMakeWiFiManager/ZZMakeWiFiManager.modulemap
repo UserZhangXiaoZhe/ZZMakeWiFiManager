@@ -1,0 +1,6 @@
+framework module ZZMakeWiFiManager {
+  umbrella header "ZZMakeWiFiManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
